@@ -6,17 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController
 {
-    @RequestMapping("/")
+    @RequestMapping("/first")
     public String hello()
     {
-        return "Hello docker";
+        return "congratulation on your first java with kubernates application";
     }
-
-    @RequestMapping("/first")
-    public String firstEndPoint()
-    {
-        return "Hello first end Point ";
-    }
-
 
 }
