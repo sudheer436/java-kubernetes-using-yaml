@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController
 {
-    @RequestMapping("/first")
+    @RequestMapping("/message")
     public String hello()
     {
         return "congratulation on your first java with kubernates application";

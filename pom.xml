@@ -49,7 +49,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>docker-spring-boot</finalName>
+		<finalName>springboot-k8s-demo</finalName>
 	</build>
 
 </project>
